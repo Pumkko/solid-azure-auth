@@ -12,12 +12,12 @@ const Home: VoidComponent = () => {
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
           <A
             class="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://start.solidjs.com"
-            target="_blank"
+            href="/superdupersecret"
           >
-            <h3 class="text-2xl font-bold">Solid Start →</h3>
+            <h3 class="text-2xl font-bold">Super Secret →</h3>
             <div class="text-lg">
-              Learn more about Solid Start and the basics.
+              Learn more about the super duper secret thing you absolutely can
+              not know
             </div>
           </A>
           <A
