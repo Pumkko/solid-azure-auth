@@ -14,7 +14,7 @@ interface WeatherForecast {
 export function routeData() {
   return createServerData$(async (_, event) => {
     const session = await getSession(event.request, authOptions);
-    const response = await fetch("https://localhost:44381/WeatherForecast", {
+    const response = await fetch("https://localhost:7014/WeatherForecast", {
       headers: {
         Authorization: `Bearer ${session?.accessToken}`,
       },
