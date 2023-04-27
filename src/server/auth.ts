@@ -13,6 +13,7 @@ declare module "@auth/core/types" {
 export const authOptions: SolidAuthConfig = {
   callbacks: {
     async jwt(params) {
+      debugger;
       if (params.account && params.account.access_token) {
         params.token.accessToken = params.account.access_token;
       }

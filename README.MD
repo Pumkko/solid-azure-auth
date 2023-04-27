@@ -72,3 +72,5 @@ export default function Protected() {
 ### Debugging
 
 To be fair debugging server side code is note easy, really not easy, I should probably join their Discord and ask around about that. Because I really lost a lot of time trying to understand why did my auth not work, why was my access_token empty...
+
+One way to debug it is to open a Javascript debug terminal and run the app normally with npm run dev. Then writing "debugger" instead of setting a breakpoint does the trick
